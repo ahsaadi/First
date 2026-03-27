@@ -7,7 +7,7 @@ on:
   # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
     branches: [ "master" ]
-    paths: [ ".github/workflows/product.??.yml" ]
+    paths: [ ".github/workflows/product.[a-z].yml" ]
   pull_request:
     branches: [ "master" ]
 
